@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>GCC</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <!-- Page title icon -->
+  <link rel="icon" href="logo.png">
+
+  <link rel="stylesheet" href="style.css">
+  <style>
+    #form {
+      margin: 0 auto;
+      margin-top: 80px;
+      align-items: center;
+      width: 30%;
+      float: none;
+    }
+  </style>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a href="#"><img class="logo" src="logo.png" alt="Logo"></a>
+
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse-main">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="admin.html" class="active hover">Dashboard</a></li>
+          <li><a href="#" class="active hover">Settings</a></li>
+          <li><a href="#" class="active hover">Logout</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid text-center section1">
+    <div class="row">
+      <div class="col-sm-2">
+        <!-- <h3>Hello</h3> -->
+      </div>
+
+      <div class="col-sm-8">
+        <!-- <div class="search-box">
+          <input id="search" type="text" placeholder="Search">
+          <i class="fa fa-search fa-lg fa-fw" aria-hidden="true"></i>
+        </div> -->
+      </div>
+
+      <div class="col-sm-2">
+        <button class="add-student">Add Student</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Form -->
+  <form>
+    <div id="form">
+      <div class="form-group">
+        <label for="surname">Surname:</label>
+        <input type="text" class="form-control" id="surname">
+      </div>
+      <div class="form-group">
+        <label for="first_name">First name:</label>
+        <input type="text" class="form-control" id="first_name">
+      </div>
+      <div class="form-group">
+        <label for="other_names">Other names:</label>
+        <input type="text" class="form-control" id="other_names">
+      </div>
+      <div class="form-group">
+        <label for="DOB">Date of birth:</label>
+        <input type="date" class="form-control" id="DOB">
+      </div>
+      <div class="form-group">
+        <label for="IDP">IDP Camp:</label>
+        <input type="text" class="form-control" id="IDP">
+      </div>
+
+      <div class="form-group">
+        <label for="custom_fields">Custom fields:</label>
+        <input type="text" class="form-control" id="custom_fields">
+      </div>
+
+      <div>
+        <button type="submit" class="btn add-student">Add field</button>
+      </div>
+    </div>
+  </form>
+
+</body>
+
+</html>

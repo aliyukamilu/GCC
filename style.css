@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+box-sizing: border-box;
+}
+
+html, body {
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+}
+
+.navbar {
+  background: #237D80;
+  padding: 1.5% 2.8% 1.5% 2%;
+  font-size: 1.4rem;
+}
+
+.navbar-brand {
+  min-height: 50px;
+}
+
+.logo {
+  width: 10rem;
+  height: 5rem;
+}
+
+.navbar-default .navbar-nav li a {
+color: #dfdfdf;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:active {
+color: #fff;
+}
+
+
+@media (max-width: 768px) {
+  .navbar {
+      padding: 2% 0em;
+  }
+}
+
+@media (max-width: 768px) {
+.navbar-brand {
+  min-height: 65px;
+}
+}
+
+@media (max-width: 768px) {
+.navbar-default .navbar-nav li a {
+  background: #237D80;
+}
+}
+
+/* Section One */
+.section1 {
+  margin-top: 12rem;
+}
+
+.search-box {
+  /* background-color: aqua; */
+  position: relative;
+}
+
+.search-box i {
+  position: absolute;
+  left: 0;
+  top: 8px;
+  padding: 9px 8px;
+  color: gray;
+}
+
+#search{
+  border-radius: 0.8rem;
+  height: 4rem;
+  width: 50rem;
+  padding: 0.8rem;
+  border: 0.1rem solid #237D80;
+  box-sizing: border-box;
+  outline: none;
+  transition: 3s;
+}
+
+#search:focus{
+  /* D398B5 */
+  border-color: #237D80;
+  box-shadow: 0 0 8px 0 #237D80;
+  border-width: 0.1rem;
+}
+
+.add-student{
+  background: #237D80;
+  height: 4rem;
+  width: 13rem;
+  border: 0.1rem solid #237D80;
+  border-radius: 0.8rem;
+  color: #fff;
+  box-shadow: 0 0 8px 0 rgb(180, 176, 176);
+}
+
+.btn-primary{
+  background: #237D80;
+  height: 4rem;
+  width: 12rem;
+  border: 0.1rem solid #237D80;
+  border-radius: 0.8rem;
+  color: #fff;
+  box-shadow: 0 0 8px 0 rgb(180, 176, 176);
+}
